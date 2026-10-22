@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VIT Vellore | Lost & Found</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#home" class="brand">
+            VIT VELLORE <span>|</span> LOST & FOUND
+        </a>
+
+        <nav>
+            <a href="#find">Find an Item</a>
+            <a href="#report">Report an Item</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#campus-map">Campus Map</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">A CAMPUS COMMUNITY INITIATIVE</p>
+
+                <h1>
+                    Lost something<br>
+                    <em>on campus?</em>
+                </h1>
+
+                <p class="hero-description">
+                    Find reported items or help return a lost belonging.
+                    A small gesture goes a long way.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#find" class="button button-light">
+                        Find an Item <span>↗</span>
+                    </a>
+
+                    <a href="#report" class="button button-outline">
+                        Report an Item <span>↗</span>
+                    </a>
+                </div>
+
+                <div class="trust-strip">
+                    <span>✳ By VITians</span>
+                    <span>✳ A Safer Campus</span>
+                    <span>✳ A Thoughtful Community</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOW IT WORKS -->
+        <section class="section how-section" id="how-it-works">
+            <div class="section-heading">
+                <p class="eyebrow green-text">SIMPLE. THOUGHTFUL. USEFUL.</p>
+                <h2>Small steps, <em>happy reunions.</em></h2>
+                <p>
+                    Helping lost belongings find their way back to their owners.
+                </p>
+            </div>
+
+            <div class="steps-grid">
+                <article class="step-card">
+                    <span class="step-number">01</span>
+                    <div class="step-icon">⌕</div>
+                    <h3>Search for an item</h3>
+                    <p>
+                        Browse reported items and look for something
+                        you may have misplaced.
+                    </p>
+                </article>
+
+                <article class="step-card">
+                    <span class="step-number">02</span>
+                    <div class="step-icon">＋</div>
+                    <h3>Report it</h3>
+                    <p>
+                        Lost something? Found something?
+                        Share the details with the campus community.
+                    </p>
+                </article>
+
+                <article class="step-card">
+                    <span class="step-number">03</span>
+                    <div class="step-icon">♡</div>
+                    <h3>Reconnect</h3>
+                    <p>
+                        Verify ownership and arrange a safe return
+                        of the belonging.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- FIND ITEMS -->
+        <section class="section items-section" id="find">
+            <div class="section-heading heading-row">
+                <div>
+                    <p class="eyebrow green-text">THE COMMUNITY BOARD</p>
+                    <h2>Recently reported <em>items.</em></h2>
+                    <p>Take a look. Your missing item might be here.</p>
+                </div>
+
+                <a href="#report" class="text-link">
+                    Report an item ↗
+                </a>
+            </div>
+
+            <div class="filter-bar">
+                <input
+                    type="search"
+                    placeholder="Search items..."
+                    aria-label="Search items"
+                >
+
+                <select aria-label="Choose category">
+                    <option value="">All categories</option>
+                    <option>Electronics</option>
+                    <option>Books & Stationery</option>
+                    <option>ID Cards & Wallets</option>
+                    <option>Keys</option>
+                    <option>Clothing & Accessories</option>
+                    <option>Other</option>
+                </select>
+
+                <select aria-label="Choose location">
+                    <option value="">All locations</option>
+                    <option>Academic Blocks</option>
+                    <option>Library</option>
+                    <option>Cafeteria</option>
+                    <option>Hostels</option>
+                    <option>Sports Complex</option>
+                    <option>Bus Stops</option>
+                </select>
+            </div>
+
+            <div class="items-grid">
+
+                <article class="item-card">
+                    <div class="item-image">
+                        <img src="assets/bottle.jpeg"
+                             alt="Black water bottle">
+                        <span class="status found">Found</span>
+                    </div>
+
+                    <div class="item-details">
+                        <p class="item-category">PERSONAL ITEMS</p>
+                        <h3>Black Milton Bottle</h3>
+                        <p class="item-location">⌖ Library area</p>
+                        <div class="item-footer">
+                            <span>Recently reported</span>
+                            <a href="#claim">Claim item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card">
+                    <div class="item-image">
+                        <img src="assets/notebook.jpg"
+                             alt="Notebook">
+                        <span class="status lost">Lost</span>
+                    </div>
+
+                    <div class="item-details">
+                        <p class="item-category">BOOKS & STATIONERY</p>
+                        <h3>Classmate Notebook</h3>
+                        <p class="item-location">⌖ Academic block</p>
+                        <div class="item-footer">
+                            <span>Recently reported</span>
+                            <a href="#claim">View details ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card">
+                    <div class="item-image placeholder-image">
+                        <span class="status found">Found</span>
+                        <div class="placeholder-icon">🔑</div>
+                    </div>
+
+                    <div class="item-details">
+                        <p class="item-category">PERSONAL ITEMS</p>
+                        <h3>Set of Keys</h3>
+                        <p class="item-location">⌖ Cafeteria</p>
+                        <div class="item-footer">
+                            <span>Recently reported</span>
+                            <a href="#claim">Claim item ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="demo-note">
+                Demo listings only. Replace these with real student reports
+                when your submission system is connected.
+            </p>
+        </section>
+
+        <!-- REPORT FORM -->
+        <section class="section report-section" id="report">
+            <div class="report-layout">
+                <div class="report-intro">
+                    <p class="eyebrow green-text">MAKE A DIFFERENCE</p>
+                    <h2>Let's get it<br><em>back where it belongs.</em></h2>
+                    <p>
+                        Share a few details about the item.
+                        Someone on campus might be looking for it.
+                    </p>
+
+                    <div class="report-note">
+                        <span>✳</span>
+                        <p>
+                            Please avoid posting private information such
+                            as passwords or full identification numbers.
+                        </p>
+                    </div>
+                </div>
+
+                <form class="report-form">
+                    <h3>Report an item</h3>
+                    <p class="form-subtitle">
+                        Fill in the details below.
+                    </p>
+
+                    <label for="report-type">I want to</label>
+                    <select id="report-type" required>
+                        <option value="">Select an option</option>
+                        <option value="lost">Report a lost item</option>
+                        <option value="found">Report a found item</option>
+                    </select>
+
+                    <label for="item-name">Item name</label>
+                    <input id="item-name" type="text"
+                           placeholder="e.g. Black water bottle" required>
+
+                    <div class="form-row">
+                        <div>
+                            <label for="category">Category</label>
+                            <select id="category" required>
+                                <option value="">Choose</option>
+                                <option>Electronics</option>
+                                <option>Books & Stationery</option>
+                                <option>ID Cards & Wallets</option>
+                                <option>Keys</option>
+                                <option>Clothing & Accessories</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="location">Location</label>
+                            <select id="location" required>
+                                <option value="">Choose</option>
+                                <option>Academic Blocks</option>
+                                <option>Library</option>
+                                <option>Cafeteria</option>
+                                <option>Hostels</option>
+                                <option>Sports Complex</option>
+                                <option>Bus Stops</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <label for="item-date">Date lost or found</label>
+                    <input id="item-date" type="date" required>
+
+                    <label for="description">Description</label>
+                    <textarea id="description" rows="3"
+                              placeholder="Describe the item and where you last saw it..."
+                              required></textarea>
+
+                    <label for="student-email">VIT student email</label>
+                    <input id="student-email" type="email"
+                           placeholder="Your contact email" required>
+
+                    <button class="button button-dark" type="button">
+                        Submit report ↗
+                    </button>
+
+                    <p class="form-footnote">
+                        Demo form: submissions are not saved yet.
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        <!-- CLAIM FORM -->
+        <section class="section claim-section" id="claim">
+            <div class="claim-card">
+                <div>
+                    <p class="eyebrow green-text">FOUND YOUR MATCH?</p>
+                    <h2>Think it's <em>yours?</em></h2>
+                    <p>
+                        Request to claim an item. Be ready to describe
+                        a distinguishing detail to verify ownership.
+                    </p>
+                </div>
+
+                <form class="claim-form">
+                    <label for="claim-item">Item name</label>
+                    <input id="claim-item" type="text"
+                           placeholder="Which item?" required>
+
+                    <label for="claim-email">Your student email</label>
+                    <input id="claim-email" type="email"
+                           placeholder="Your email" required>
+
+                    <label for="verification">How can you identify it?</label>
+                    <textarea id="verification" rows="3"
+                              placeholder="Describe a private identifying detail..."
+                              required></textarea>
+
+                    <button type="button" class="button button-dark">
+                        Request claim ↗
+                    </button>
+
+                    <p class="form-footnote">
+                        Do not share passwords or sensitive ID details.
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        <!-- CAMPUS MAP -->
+        <section class="section map-section" id="campus-map">
+            <div class="section-heading">
+                <p class="eyebrow green-text">AROUND VIT VELLORE</p>
+                <h2>Where was it <em>last seen?</em></h2>
+                <p>
+                    Use the campus map to help describe where an item
+                    was lost or found.
+                </p>
+            </div>
+
+            <div class="map-image">
+                <img src="assets/campus-map.png"
+                     alt="VIT Vellore campus map">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a href="#home" class="brand">
+            VIT VELLORE <span>|</span> LOST & FOUND
+        </a>
+
+        <p>Made with care for the VIT campus community.</p>
+
+        <a href="#home" class="back-to-top">Back to top ↑</a>
+    </footer>
+
+</body>
+</html>
